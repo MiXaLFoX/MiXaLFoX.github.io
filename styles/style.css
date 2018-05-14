@@ -1,0 +1,42 @@
+@import "fonts.css";
+@import "forpages.css";
+@import "header.css";
+@import "footer.css";
+@import "banner.css";
+@import "carusel.css";
+@import "getquote.css";
+@import "counter.css";
+@import "service.css";
+@import "forms.css";
+@import "parallax.css";
+@import "message.css";
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+.page-content {
+  margin: 0;
+  font-family: "Aller", sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+  color: #033996;
+  border-bottom: 1px solid #181818;
+}
+h3 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 22px;
+  color: #033996;
+  text-align: center;
+  text-transform: uppercase;
+}

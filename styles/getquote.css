@@ -1,0 +1,51 @@
+.getquote {
+  background: url("../images/container-2687310_1280.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.getquote-container {
+  background: rgba(32,87,227,0.7);
+  background: -moz-linear-gradient(top, rgba(32,87,227,0.7) 0%, rgba(75,232,80,0.7) 100%);
+  background: -webkit-linear-gradient(top, rgba(32,87,227,0.7) 0%, rgba(75,232,80,0.7) 100%);
+  background: -o-linear-gradient(top, rgba(32,87,227,0.7) 0%, rgba(75,232,80,0.7) 100%);
+  background: -ms-linear-gradient(top, rgba(32,87,227,0.7) 0%, rgba(75,232,80,0.7) 100%);
+  background: linear-gradient(to bottom, rgba(32,87,227,0.7) 0%, rgba(75,232,80,0.7) 100%);
+  text-align: center;
+}
+
+.getquote-container h1 {
+  border: none;
+  padding-top: 40px;
+  font-size: 50px;
+  color: #fff6ff;
+}
+
+.getquote-container p {
+  text-align: center;
+  color: #fff6ff;
+  font-size: 26px;
+}
+
+.main-quote-button {
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  display: inline-block;
+  padding: 0;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  height: 60px;
+  line-height: 60px;
+  min-width: 200px;
+  text-transform: uppercase;
+  background-color: #44a703;
+  -webkit-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+  margin-bottom: 40px;
+}
+
+.main-quote-button:hover {
+  background-color: #6cc90c;
+}

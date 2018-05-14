@@ -1,0 +1,118 @@
+/* cargo form */
+
+.form-body div {
+  margin: 2%;
+}
+
+label, input, textarea {
+  display: block;
+}
+
+label {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #1a2396;
+  margin: 10px 0;
+}
+
+input, textarea {
+  background-color: #eeeeef;
+  border-radius: 5px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+textarea {
+  width: 98%;
+  resize: none;
+}
+
+input:focus {
+  box-shadow: 0 0 5px #007eff;
+  -webkit-box-shadow: 0 0 5px #007eff;
+  -moz-box-shadow: 0 0 5px #007eff;
+}
+
+textarea:focus {
+  box-shadow: 0 0 5px #007eff;
+  -webkit-box-shadow: 0 0 5px #007eff;
+  -moz-box-shadow: 0 0 5px #007eff;
+}
+
+.trans-mode input {
+  width: 50%;
+}
+
+.cargo-quantity, .cargo-weight, .cargo-dimensions, .cargo-type {
+  display: inline-block;
+  width: 45%;
+}
+
+.cargo-quantity input, .cargo-weight input, .cargo-dimensions input, .cargo-type input {
+  width: 100%;
+}
+
+.submit-button {
+  cursor: pointer;
+  margin: auto;
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  padding: 0;
+  border: 2px solid #d5d5d6;
+  border-radius: 30px;
+  height: 60px;
+  min-width: 200px;
+  text-transform: uppercase;
+  background-color: #44a703;
+  -webkit-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+.submit-button:hover {
+  background-color: #6cc90c;
+}
+
+/* contact form style */
+
+.contact-form {
+  background-color: #1a2396;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.aside.contact-form {
+  width: 35%;
+  padding: 0 2%;
+}
+
+.contact-form label {
+  color: #fff;
+  font-size: 18px;
+  border-bottom: 1px solid #fff;
+}
+
+.client-name input, .client-email input, .client-message input  {
+  width: 100%;
+}
+
+.client-email input, .client-message textarea {
+  text-transform: none;
+}
+
+.contact-form .form-button .submit-button {
+  margin: 5% 0;
+  height: 45px;
+  min-width: 110px;
+}
+
+/* adaptiveness */
+
+@media only screen and (max-width: 576px) {
+
+  label {
+    font-size: 18px;
+  }
+}

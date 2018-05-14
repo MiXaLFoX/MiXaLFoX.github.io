@@ -1,0 +1,53 @@
+.message {
+  font-family: 'Aller', sans-serif;
+  width: 340px;
+  height: 300px;
+  background-color: #1a2396;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 4px 3px 4px 1px rgba(82,82,82,1);
+}
+
+.message-title {
+  margin: 30px 0;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+.message-body {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 40px 0 0 0;
+  color: #FFFFFF;
+}
+
+.message-span {
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+  color: #44a703;
+}
+
+.message-ok {
+  cursor: pointer;
+  margin: auto;
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  border: 2px solid #d5d5d6;
+  border-radius: 30px;
+  height: 40px;
+  min-width: 100px;
+  text-transform: uppercase;
+  background-color: #44a703;
+  -webkit-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+.message-ok:hover {
+  background-color: #6cc90c;
+}

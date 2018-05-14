@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0"/>
+  <title>LinkGlobal Quote</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/icons/favicon-16x16.png">
+  <link rel="stylesheet" href="../styles/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
+</head>
+<body>
+  <div class="page-content">
+    <header>
+      <div class="header-content">
+        <figure class="logo">
+          <a href="../index.html" title="LINKGlobal"><img src="../images/logo_link.png" alt="logo"></a>
+        </figure>
+        <nav>
+          <ul class="menu">
+            <li>
+              <img class="menu-icon" src="../images/icons/home_black.png" alt="">
+              <a href="../index.html" title="HOME">home</a>
+            </li>
+            <li>
+              <img class="menu-icon" src="../images/icons/about-us-black.png" alt="">
+              <a href="about-us.html" title="ABOUT US">about us</a>
+            </li>
+            <li>
+              <img class="menu-icon" src="../images/icons/repairing-service.png" alt="">
+              <a href="services.html" title="SERVICES">services</a>
+            </li>
+            <li>
+              <img class="menu-icon" src="../images/icons/percentage_black.png" alt="">
+              <a href="benefits.html" title="BENEFITS">benefits</a>
+            </li>
+            <li>
+              <img class="menu-icon" src="../images/icons/coin_black.png" alt="">
+              <a href="quote.html" title="GET A QUOTE">get a quote</a>
+            </li>
+            <li>
+              <img class="menu-icon" src="../images/icons/phone-contact_black.png" alt="">
+              <a href="contact.html" title="CONTACT">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="background quote">
+      <div class="background-title">
+        <h1>get a quote</h1>
+      </div>
+    </section>
+    <article class="quote-layer">
+      <div class="quote-content">
+        <div class="left-container">
+          <p>
+            We will be most happy to send you a quote for your shipment(s) after submitting information by using CARGO
+            INFO as below. It is important to complete the requested information as much as possible. Please make sure
+            to leave your correct contactdetails, so we can immediately contact you, in case we have questions.
+          </p>
+          <p>
+            You can also choose to ask a quote from a member directly. If you choose to do this, we advice you to either
+            contact the member in the country where the shipment departs from or contact the member in the country the
+            shipment is destined for. Of course you can also contact the member in your country.
+          </p>
+        </div>
+      </div>
+      <div class="aside quoteimg">
+        <figure class="right-container">
+          <img src="../images/get-a-quote-linkglobal.jpg">
+        </figure>
+      </div>
+    </article>
+    <section id="quoteForm" class="cargo-form">
+      <h2>cargo info</h2>
+      <form class="form-body" method="post" action="#">
+        <div class="trans-mode">
+          <label for="mode" >transportation mode</label>
+          <input id="mode" list="transportmode">
+          <datalist id="transportmode">
+            <option value="air" selected>air</option>
+            <option value="ocean">ocean</option>
+            <option value="air ocean">air ocean</option>
+            <option value="warehousing">warehousing</option>
+            <option value="train">train</option>
+            <option value="trucking">trucking</option>
+          </datalist>
+        </div>
+        <div class="cargo-description">
+          <label for="description">commodity/description</label>
+          <textarea id="description" rows="10" cols="150"></textarea>
+        </div>
+        <div class="cargo-type">
+          <label for="type" >cargo type</label>
+          <input id="type" list="cargotypes">
+          <datalist id="cargotypes">
+            <option value="General Purpose" selected>General Purpose</option>
+            <option value="Oversized Cargo">Oversized Cargo</option>
+            <option value="Hanging Garments">Hanging Garments</option>
+            <option value="Hazardous Material">Hazardous Material</option>
+            <option value="Food Stuff">Food Stuff</option>
+            <option value="Other">Other</option>
+          </datalist>
+        </div>
+        <div class="cargo-quantity">
+          <label for="quantity">cargo quantity</label>
+          <input type="text" name="quantity" id="quantity" placeholder="1">
+        </div>
+        <div class="cargo-weight">
+          <label for="weight">cargo weight</label>
+          <input type="text" name="quantity" id="weight" placeholder="kilos">
+        </div>
+        <div class="cargo-dimensions">
+          <label for="quantity">dimensions</label>
+          <input type="text" name="dimensions" id="dimensions" placeholder="meters">
+        </div>
+        <div class="form-button">
+          <input type="button" value="Send Info" class="submit-button" onclick="setupMessageButton('Thank you!',
+          'Your quote','accepted')">
+        </div>
+    </section>
+    <footer>
+      <div class="top-footer">
+        <div class="wrapper">
+          <h2>link global</h2>
+          <p>
+            L.I.N.K. Global is an international network of forwarders with over 240 offices based in 63 countries. As
+            your true global partner we make sure your cargo is taken care of from origin to destination: L.I.N.K.
+            Global provides the service you need. Safe, secure and efficient.
+          </p>
+        </div>
+        <div class="wrapper">
+          <h2>information</h2>
+          <ul class="info-links">
+            <li><a href="../pages/quote.html#quoteForm" title="get a quote">get a quote</a></li>
+            <li><a href="../pages/services.html#air" title="airfreight">airfreight</a></li>
+            <li><a href="../pages/services.html#sea" title="seafreight">seafreight</a></li>
+            <li><a href="../pages/services.html#storage" title="storage">storage</a></li>
+            <li><a href="../pages/services.html#distribution" title="distribution">distribution</a></li>
+          </ul>
+        </div>
+        <div class="wrapper">
+          <h2>contact</h2>
+          <ul class="contact-wrapper fa-ul">
+            <li><i class="fa-li fa fa-info-circle"></i>
+              <a href="../pages/contact.html">Link Global contact information</a>
+            </li>
+            <li><i class="fa-li fa fa-phone"></i>
+              (844) 845-25-78
+            </li>
+            <li><i class="fa-li fa fa-envelope-o"></i>
+              <a href="mailto:info@linkglobal.com">info@linkglobal.com</a>
+            </li>
+          </ul>
+          <div class="social">
+            <div class="social-button">
+              <a href="https://www.twitter.com" title="twitter" target="_blank">
+                <div class="button-container twitter">
+                  <i class="fa fa-twitter"></i>
+                </div>
+              </a>
+            </div>
+            <div class="social-button">
+              <a href="https://www.facebook.com" title="facebook" target="_blank">
+                <div class="button-container facebook">
+                  <i class="fa fa-facebook"></i>
+                </div>
+              </a>
+            </div>
+            <div class="social-button">
+              <a href="https://www.plus.google.com" title="google plus" target="_blank">
+                <div class="button-container google">
+                  <i class="fa fa-google-plus"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <p>&copy; COPYRIGHT 2018 LINK GLOBAL. ALL RIGHTS RESERVED.</p>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="../js/message.js"></script>
+</body>
+</html>

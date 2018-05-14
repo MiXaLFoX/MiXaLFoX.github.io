@@ -1,0 +1,59 @@
+.carousel {
+  padding: 15px 0;
+}
+
+.carousel a {
+  color: #3e3e3e;
+}
+
+.carousel figure {
+  margin: 15px;
+}
+
+.carousel .owl-carousel figure img {
+  width: 65%;
+}
+
+.slide {
+  width: 85%;
+  margin-left: 40px;
+}
+
+.slide p {
+  margin: auto 20px;
+  font-size: 22px;
+}
+
+.slide h3 {
+  font-size: 28px;
+}
+
+/* adaptiveness */
+
+@media only screen and (max-width: 576px) {
+  .slide {
+    margin: 10px 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .slide h3 {
+    font-size: 22px;
+  }
+  .slide p {
+    margin: auto 15px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .slide h3 {
+    font-size: 26px;
+  }
+  .slide p {
+    margin: auto 15px;
+    font-size: 20px;
+  }
+}

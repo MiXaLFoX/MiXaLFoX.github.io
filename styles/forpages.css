@@ -1,0 +1,237 @@
+.background {
+  height: 750px;
+  position: relative;
+}
+
+.about {
+  background: url("../images/linkglobal-about-us.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.benefit {
+  background: url("../images/linkglobal-benefits.jpg") center;
+  background-size: cover;
+}
+
+[class*="layer"] ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+[class*="layer"] li:before {
+  content: '\003E';
+  padding-right: 15px;
+}
+
+.services {
+  background: url("../images/linkglobal-services.jpg") center;
+  background-size: cover;
+}
+
+.contact {
+  background: url("../images/linkglobal-contact-us.jpg") center;
+  background-size: cover;
+}
+
+.quote {
+  background: url("../images/linkglobal-getaquote.jpg") center;
+  background-size: cover;
+}
+
+.background-title {
+  visibility: hidden;
+}
+
+.background h1 {
+  color: #424750;
+}
+
+.background-title {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 40px;
+  background-color: rgba(255,255,255, .7);
+  box-shadow: 0 1px 4px 4px rgba(185, 185, 185, 0.5);
+  animation-name: show-title;
+  -webkit-animation-name: show-title;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  visibility: visible !important;
+}
+
+@keyframes show-title {
+  0%{opacity:0}
+  10%{opacity: 0.1}
+  20%{opacity: 0.2}
+  30%{opacity: 0.3}
+  40%{opacity: 0.4}
+  50%{opacity: 0.5}
+  60%{opacity: 0.6}
+  70%{opacity: 0.7}
+  80%{opacity: 0.8}
+  90%{opacity: 0.9}
+  100%{opacity: 1}
+}
+
+@-webkit-keyframes show-title {
+  0%{opacity:0}
+  10%{opacity:.1}
+  20%{opacity:.2}
+  30%{opacity:.3}
+  40%{opacity:.4}
+  50%{opacity:.5}
+  60%{opacity:.6}
+  70%{opacity:.7}
+  80%{opacity:.8}
+  90%{opacity:.9}
+  100%{opacity:1}
+}
+
+.background-title h1 {
+  border-bottom: none;
+}
+
+.about-layer,
+.benefits-layer,
+.contact-layer,
+.quote-layer,
+.cargo-form {
+  overflow: hidden;
+  padding: 3% 10%;
+  font-size: 18px;
+}
+
+.aside {
+  width: 35%;
+  float: right;
+}
+
+.aboutimg img, .benefitsimg img, .quoteimg img {
+  max-width: 460px;
+}
+
+.about-content,
+.benefits-content,
+.quote-content,
+.contact-content {
+  width: 55%;
+  float: left;
+}
+
+.services-layer a {
+  color: #44a703;
+}
+
+/* services */
+
+.service-content {
+  margin: auto 10%;
+  padding: 20px 0;
+}
+.service-content a {
+  color: #44a703;
+}
+.service-content ul {
+  list-style: none;
+}
+.service-content li:before {
+  content: '\003E';
+  padding-right: 15px;
+}
+
+/* adaptiveness */
+
+@media only screen and (max-width: 576px) {
+
+  .background {
+    height: 300px;
+  }
+  .background-title h1 {
+    font-size: 40px;
+  }
+  .about-layer, .benefits-layer, .contact-layer, .quote-layer, .services-layer, .cargo-form {
+    padding: 3% 5%;
+  }
+  .about-content, .benefits-content, .quote-content, .contact-content {
+    width: 100%;
+  }
+  .aside {
+    width: 100%;
+  }
+  .aside.contact-form {
+    padding: 0 3%;
+    width: 94%;
+  }
+
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+  .background-title h1 {
+    font-size: 40px;
+  }
+  .background {
+    height: 400px;
+  }
+  .about-layer, .benefits-layer, .contact-layer, .quote-layer, .services-layer, .cargo-form {
+    padding: 3% 5%;
+  }
+  .about-content, .benefits-content, .quote-content, .contact-content {
+    width: 100%;
+  }
+  .aside {
+    width: 100%;
+  }
+  .aside figure {
+    text-align: center;
+  }
+  .aside.contact-form {
+    width: 60%;
+    padding: 0 2%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .background {
+    height: 500px;
+  }
+  .about-layer, .benefits-layer, .contact-layer, .quote-layer, .services-layer, .cargo-form {
+    padding: 3% 5%;
+  }
+  .about-content, .benefits-content, .quote-content, .contact-content {
+    width: 100%;
+    float: none;
+  }
+  .aside {
+    width: 100%;
+    float: none;
+  }
+  .aside figure {
+    text-align: center;
+  }
+  .aside.contact-form {
+    width: 350px;;
+    padding: 1% 2%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .background {
+    height: 550px;
+  }
+  .about-layer, .benefits-layer, .contact-layer, .quote-layer, .services-layer, .cargo-form {
+    padding: 3% 5%;
+  }
+  .aside.contact-form {
+    width: 35%;
+    padding: 0 2%;
+  }
+}

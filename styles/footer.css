@@ -1,0 +1,163 @@
+footer {
+  background-color: #eeeeef;
+  color: rgba(58, 58, 58, 0.83);
+}
+
+footer a {
+  color: rgba(58, 58, 58, 0.83);
+}
+
+.top-footer {
+  display: flex;
+  margin: auto 10%;
+}
+
+.wrapper .info-links {
+  list-style: none;
+  padding-left: 1px;
+}
+
+.wrapper .info-links li:before {
+  content: '\2714';
+  padding-right: 10px;
+  color: rgb(41, 217, 31);
+}
+
+.top-footer .wrapper {
+  width: 33%;
+  padding: 0 22px;
+}
+
+.contact-wrapper li {
+  padding: 3px 0;
+}
+
+.fa-info-circle, .fa-phone, .fa-envelope-o {
+  color: rgb(41, 217, 31);
+}
+
+.top-footer .social {
+  display: flex;
+  padding: 0;
+}
+
+.social-button {
+  margin: 0 15px;
+  text-align: center;
+}
+
+.social-button a {
+  color: rgb(41, 217, 31);
+  font-size: 21px;
+}
+
+.top-footer .button-container {
+  padding: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin: 10px 0;
+  border: 3px solid rgb(41, 217, 31);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.top-footer .button-container .fa {
+  padding-top: 7px;
+}
+
+.button-container.google:hover {
+  color: #FFFFFF;
+  border-color: #F1403A;
+  background-color: #F1403A;
+  transform: rotate(1turn);
+}
+
+.button-container.twitter:hover {
+  color: #FFFFFF;
+  border-color: #00B4E0;
+  background-color: #00B4E0;
+  transform: rotate(1turn);
+}
+
+.button-container.facebook:hover {
+  color: #FFFFFF;
+  border-color: #255C95;
+  background-color: #255C95;
+  transform: rotate(1turn);
+}
+
+.bottom-footer {
+  line-height: 50px;
+  background-color: #033996;
+  color: #FFFFFF;
+}
+
+.bottom-footer p {
+  margin: auto 11%;
+}
+
+                                /* adaptiveness */
+
+@media only screen and (max-width: 576px) {
+
+  .top-footer {
+    flex-direction: column;
+    margin: auto 5%;
+  }
+
+  .top-footer .wrapper {
+    width: 100%;
+    padding: 0;
+  }
+
+  .bottom-footer p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+  .top-footer {
+    flex-direction: column;
+  }
+
+  .top-footer .wrapper {
+    width: 100%;
+    padding: 0;
+  }
+
+  .bottom-footer p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .top-footer {
+    margin: auto 5%;
+  }
+
+  .top-footer .wrapper {
+    width: 100%;
+    padding: 0 5px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .top-footer div {
+    padding: 0 20px;
+  }
+
+  .top-footer .social-button {
+    padding: 0;
+  }
+
+  .top-footer .wrapper {
+    width: 45%;
+    padding: 0 5px;
+  }
+}
